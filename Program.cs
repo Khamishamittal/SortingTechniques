@@ -6,11 +6,15 @@
         {
             Console.WriteLine("Welcome to Sorting Techniques");
 
-            Console.WriteLine("Insertion Sorting ");
+            int[] arr = { 8, 4, 21, 88, 45, 125, 12 };
 
-            InsertionSort Sort= new InsertionSort();
-            Sort.Display();
+            Console.WriteLine("Array before sorting:");
+            MergeSort.PrintArray(arr);
 
+            MergeSort.mergeSort(arr, 0, arr.Length - 1);
+
+            Console.WriteLine("\nArray after Merge sort:");
+            MergeSort.PrintArray(arr);
         }
     }
 }
