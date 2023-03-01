@@ -4,12 +4,12 @@
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to Sorting Techniques\n");
+            Console.WriteLine("Welcome to Sorting Techniques");
 
-            Console.WriteLine("\nBubble Sorting \n");
+            Console.WriteLine("Insertion Sorting ");
 
-            BubbleSort bubbleSort= new BubbleSort();
-            bubbleSort.DisplayNumbers();
+            InsertionSort Sort= new InsertionSort();
+            Sort.Display();
 
         }
     }
