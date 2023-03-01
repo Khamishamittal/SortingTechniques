@@ -6,11 +6,11 @@
         {
             Console.WriteLine("Welcome to Sorting Techniques\n");
 
-            Console.WriteLine("\nBinary Search the Word from Word List: \n");
+            Console.WriteLine("\nBubble Sorting \n");
 
-            BinarySearch BS = new BinarySearch();
+            BubbleSort bubbleSort= new BubbleSort();
+            bubbleSort.DisplayNumbers();
 
-            BS.Search();
         }
     }
 }
