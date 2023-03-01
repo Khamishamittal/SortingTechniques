@@ -6,13 +6,14 @@
         {
             Console.WriteLine("Welcome to Sorting Techniques\n");
 
-            Console.WriteLine("Checking for Anagram of two Strings...\n");
+            Console.WriteLine("\nBinary Search the Word from Word List: \n");
 
-            Anagrams anagram = new Anagrams();
+            BinarySearch BS = new BinarySearch();
 
-            anagram.DisplayAnagram();
+            BS.Search();
         }
     }
 }
+
     
 
