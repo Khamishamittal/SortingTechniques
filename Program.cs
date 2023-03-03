@@ -1,4 +1,5 @@
 ﻿using static SortingTechniques.PermutationOfStrings;
+using static SortingTechniques.PrimeNumbers;
 
 namespace SortingTechniques
 {
@@ -8,14 +9,16 @@ namespace SortingTechniques
         {
             Console.WriteLine("Welcome to Sorting Techniques");
 
-            PermutationOfString permuteString = new PermutationOfString();
+            PrimeNumbers findPrime = new PrimeNumbers();
 
-            permuteString.Display();
+            findPrime.Prime();
+
         }
     }
 }
-    
 
 
-    
+
+
+
 
