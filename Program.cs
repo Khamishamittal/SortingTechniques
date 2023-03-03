@@ -1,4 +1,6 @@
-﻿namespace SortingTechniques
+﻿using static SortingTechniques.PermutationOfStrings;
+
+namespace SortingTechniques
 {
     class Program
     {
@@ -6,18 +8,14 @@
         {
             Console.WriteLine("Welcome to Sorting Techniques");
 
-            int[] arr = { 8, 4, 21, 88, 45, 125, 12 };
+            PermutationOfString permuteString = new PermutationOfString();
 
-            Console.WriteLine("Array before sorting:");
-            MergeSort.PrintArray(arr);
-
-            MergeSort.mergeSort(arr, 0, arr.Length - 1);
-
-            Console.WriteLine("\nArray after Merge sort:");
-            MergeSort.PrintArray(arr);
+            permuteString.Display();
         }
     }
 }
+    
+
 
     
 
